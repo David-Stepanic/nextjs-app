@@ -6,4 +6,5 @@ export interface CustomButtonProps {
     handleClick?: 
     MouseEventHandler<HTMLButtonElement>;
     //  specificirali smo da to bude eventhandler nad htmlbutton element
+    btnType?: "button" | "submit";
 }
